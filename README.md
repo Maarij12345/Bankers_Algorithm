@@ -9,3 +9,7 @@ This project uses the Banker's Algorithm in C++ to determine whether a system is
 1. **Compile the Program**:
    ```bash
    g++ bankers_algorithm.cpp -o bankers_algorithm
+2. **Run the Program**:
+   ```bash
+   ./bankers_algorithm
+   
