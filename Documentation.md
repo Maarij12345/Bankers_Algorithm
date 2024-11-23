@@ -1,5 +1,6 @@
 # Documentation: Banker's Algorithm for Deadlock Avoidance
 
+
 This document provides a detailed explanation of the Banker's Algorithm implementation, the purpose of the program, its structure, and functionality.
 
 ---
@@ -103,10 +104,11 @@ The program reads from `input.txt`, which contains:
       - allocated: The Allocation matrix.
       - required: The Need matrix.
       - available: The Available resources vector
-
- ```cpp
-bool checkSafety(vector<vector<int>>& allocated, vector<vector<int>>& required, vector<int>& available, int numProcesses, int numResources);
-3.  **`main`**:
+   
+   ```cpp
+   bool checkSafety(vector<vector<int>>& allocated, vector<vector<int>>& required, vector<int>& available, int numProcesses, int numResources);
+   
+4.  **`main`**:
     -reads input, calculates the Need matrix, and checks the system's safety.
 
 
